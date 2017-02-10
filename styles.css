@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: 'Raleway';
+}
+
+nav {
+  background: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQJyQ8YEmyUwYdGCc0ihXTCJtz3csRbNXZpgO_m2dLr3P4LT8BH') center no-repeat;
+  background-size: cover;
+  height: 70px;
+  color: #fff;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  padding-top: 7px;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  font-family: 'Raleway';
+  word-wrap: normal;
+  text-align: center;
+  max-width: 100px;
+  text-overflow: clip;
+  height: 70px;
+  position: relative;
+  vertical-align: middle;
+}
+
+#title-img {
+  position: absolute;
+  top: 40px;
+}
+
+.header {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+  position: relative;
+}
+
+.right form{
+  position: absolute;
+  right: 15px;
+  bottom: -95px;
+}
+
+.right li {
+  font-size: 12px;
+}
+
+input {
+  padding: 7px;
+  font-family: 'Raleway'
+}
+
+button {
+  border-radius: 1px;
+  background-color: #665546;
+  border: 1px solid #665546;
+  color: #fff;
+  padding: 7px;
+  font-family: 'Raleway';
+}
+
+.header img:first-of-type {
+  position: relative;
+  top: 4px;
+}
+
+.header .left ul {
+  position: relative;
+  font-size: 16px;
+  top: -40px;
+  left: 40px;
+}
+
+.header ul li {
+  display: inline;
+}
+
+#questions {
+  position: absolute;
+  right: 30px;
+  top: 68px;
+}
+
+#hero img {
+  display: block;
+  margin: 10px auto;
+}
+
+.ig {
+  width: 1000px;
+  margin: 10px auto;
+}
+
+.ig:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#hero .ig img {
+  width: 156px;
+  margin: 5px;
+  height: 156px;
+  display: block;
+  float: left;
+}
